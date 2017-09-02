@@ -1,0 +1,107 @@
+.contact-container {
+  background-color: rgba(248, 247, 196, 1);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.contact-header {
+  font-family: 'Rubik Mono One', sans-serif;
+  color: #fe472b;
+  font-size: 9.5vw;
+  margin: 0;
+  padding: 45vw 0 0 0;
+  text-align: center;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.contact-list {
+  list-style: none;
+  width: 20vw;
+  margin: 5vw 0 0 10.5vw;
+}
+
+.contact-list-item {
+  font: 'Raleway', sans-serif;
+  font-size: 4.5vw;
+  color: #b9311c;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 40vw;
+}
+
+.contact-list-item .fa {
+  display: inline;
+  padding: 1vw 1vw 0 2vw;
+}
+
+.contact-list-item p {
+  display: inline;
+}
+
+.contact-links {
+  display: block;
+  text-decoration: none;
+  color: #b9311c;
+  padding: 3vw 0 3vw 0;
+}
+
+.contact-links:hover {
+  color: #fe472b;
+  text-decoration: none;
+}
+
+.contact-info {
+  padding: .75vw 0 0 2vw;
+}
+
+@media (min-width:768px) {
+
+  .contact-container {
+    background-color: rgba(248, 247, 196, 1);
+    height: 100vh;
+    margin: 0;
+  }
+
+  .contact-header {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #fe472b;
+    font-size: 5vw;
+    margin: 0;
+    padding: 9vw 0 0 0;
+    text-align: center;
+  }
+
+  .contact-list {
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 20vw;
+    margin: 2vw 40vw 0 31vw;
+  }
+
+  .contact-list-item {
+    font: 'Raleway', sans-serif;
+    font-size: 2.5vw;
+    color: #b9311c;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 40vw;
+  }
+
+  .contact-links {
+    padding: 1vw 0 1vw 0;
+  }
+
+  .contact-list-item .fa {
+    padding: 1vw 1vw 0 2vw;
+  }
+
+  .contact-info {
+    padding: .75vw 0 0 2vw;
+  }
+}

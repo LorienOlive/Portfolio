@@ -1,0 +1,95 @@
+  .home-container {
+    background-color: #f4d0cd;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding-top: 15vw;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1002;
+  }
+
+  .home-image {
+    background: url('./images/webpage-home2.png') no-repeat;
+    background-size: cover;
+    width: 110vw;
+    height: 79vh;
+    margin: 0 20vw 0 -8vw;
+  }
+
+  .home-header {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #fe472b;
+    font-weight: 700;
+    font-size: 9vw;
+    text-align: center;
+    position: absolute;
+    top: 80vw;
+    left: 3vw;
+    z-index: 1;
+  }
+
+  .home-subheader {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #b9311c;
+    font-weight: 700;
+    font-size: 4.65vw;
+    text-align: center;
+    position: absolute;
+    top: 90vw;
+    left: 3.5vw;
+    z-index: 1;
+  }
+
+
+@media (min-width:768px) {
+
+  .home-container {
+    background-color: #f4d0cd;
+    height: 100vh;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .home-image {
+    background: url('./images/webpage-home2.png') no-repeat;
+    background-size: contain;
+    width: 50vw;
+    height: 60vw;
+    position: absolute;
+    top: 0vw;
+    left: 36.3vw;
+  }
+
+  .home-header {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #fe472b;
+    font-weight: 700;
+    font-size: 4vw;
+    padding: 0vw 2vw 0 0;
+    margin: 0 4vw 0 0;
+    text-align: center;
+    position: absolute;
+    top: 28vw;
+    left: 1.5vw;
+    z-index: 1;
+  }
+
+  .home-subheader {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #b9311c;
+    font-weight: 700;
+    font-size: 1.8vw;
+    padding-right: 2vw;
+    margin: 0 3.5vw 0 0;
+    text-align: center;
+    position: absolute;
+    top: 33vw;
+    left: 4.5vw;
+    z-index: 1;
+  }
+
+}

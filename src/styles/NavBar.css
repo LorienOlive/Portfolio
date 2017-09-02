@@ -1,0 +1,270 @@
+@font-face {
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+  position: relative;
+  min-height: 8vw;
+  margin-bottom: 20px;
+}
+
+@media (min-width:768px) {
+
+  .navbar {
+    border-radius: 4px;
+  }
+}
+
+.navbar-collapse {
+  padding-right: 15px;
+  padding-left: 7vw;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.1)
+}
+
+.navbar-collapse.in {
+  width: 100vw;
+  overflow-y: hidden
+}
+
+@media (min-width:768px) {
+
+  .navbar-collapse {
+    width: 110vw;
+    height: 8vw;
+    border-top: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none
+  }
+
+  .navbar-collapse.collapse {
+    display: block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: hidden!important
+  }
+
+  .navbar-collapse.in {
+    overflow-y: hidden
+  }
+
+  .navbar-collapse,.navbar-fixed-top .navbar-collapse, .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0
+  }
+
+}
+
+.navbar-collapse,.navbar-fixed-top .navbar-collapse {
+  max-height: auto;
+}
+
+@media (max-width:480px) and (orientation:landscape) {
+
+  .navbar-collapse,.navbar-fixed-top .navbar-collapse {
+    max-height: 6vw;
+  }
+
+}
+
+.container-fluid>.navbar-collapse,.container-fluid>.navbar-header,.container>.navbar-collapse,.container>.navbar-header {
+  margin-right: -15px;
+  margin-left: -15px;
+  height: auto;
+}
+
+@media (min-width:768px) {
+
+  .container-fluid>.navbar-collapse,.container-fluid>.navbar-header,.container>.navbar-collapse,.container>.navbar-header {
+    height: auto;
+    margin-right: 0;
+    margin-left: 0
+  }
+
+}
+
+@media (min-width:768px) {
+
+  .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030
+  }
+}
+
+@media (min-width:768px) {
+
+  .navbar-fixed-top {
+    border-radius: 0
+  }
+}
+
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px
+}
+
+
+@media (min-width:768px) {
+
+  .navbar-toggle {
+    position: relative;
+    float: left;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  .navbar-toggle:focus {
+    background-color: #FFFFFF;
+    outline: 0
+  }
+
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+  }
+
+  .navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 4px
+  }
+}
+
+@media (min-width:768px) {
+  .navbar-toggle {
+    display: none
+  }
+}
+
+.navbar-nav {
+  visibility: visible;
+  margin-top: -10vw;
+}
+
+.navbar-nav>li>a {
+  font-size: 4vw;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 1vw;
+  line-height: 20px
+}
+
+@media (min-width:768px) {
+
+  .navbar-nav {
+    visibility: visible;
+    margin-bottom: 1vw;
+  }
+
+  .navbar-nav>li {
+    float: left
+  }
+
+  .navbar-nav>li>a {
+    font-size: 2vw;
+    margin: .5vw 2vw 0 0;
+    padding-bottom: -.5vw;
+  }
+
+  .navbar-nav>li>a>i {
+    font-size: 2.5vw;
+    margin-bottom: .5vw;
+  }
+}
+
+@media (min-width:768px) {
+
+  .navbar-text {
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px
+  }
+
+}
+
+@media (min-width:768px) {
+
+  .navbar-left {
+    font-size: 2vw!important;
+    color: black!important;
+    margin-left: 22vw!important;
+    padding-bottom: 0!important;
+  }
+
+  .navbar-right {
+    display: block!important;
+  }
+
+  .navbar-right~.navbar-right {
+    display: inline;
+  }
+}
+
+.navbar-right {
+  display: none;
+}
+
+.navbar-left {
+  font-size: 2vw;
+  margin-left: 5vw;
+  margin-top: -10vw;
+}
+
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7
+}
+
+.navbar-default .navbar-text {
+  color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: black;
+}
+
+.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover {
+  color: black;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover {
+  color: black;
+  background-color: #e7e7e7;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default button.navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.navbar-default button.navbar-toggle:hover {
+  background-color: #FFFFFF;
+}
+
+.navbar-default button.navbar-toggle:active {
+  background-color: #eceac8
+}
+
+@media (max-width:767px) {
+
+  .navbar-default .navbar-link {
+    color: black;
+  }
+
+  .navbar-default .navbar-link:hover {
+    color: black;
+  }
+
+}
