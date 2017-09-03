@@ -107,7 +107,7 @@
     }
 }
 
-@media (min-width:1280px) {
+@media (min-width:1024px) {
 
   .home-container {
     background-color: #f4d0cd;
@@ -121,23 +121,23 @@
   .home-image {
     background: url('./images/webpage-home2.png') no-repeat;
     background-size: contain;
-    width: 50vw;
-    height: 60vw;
+    width: 70vw;
+    height: 90vw;
     position: absolute;
     top: 0vw;
-    left: 31vw;
+    left: 22vw;
   }
 
   .home-header {
     font-family: 'Rubik Mono One', sans-serif;
     color: #fe472b;
     font-weight: 700;
-    font-size: 4vw;
+    font-size: 6vw;
     padding: 0vw 2vw 0 0;
     margin: 0 4vw 0 0;
     text-align: center;
     position: absolute;
-    top: 28vw;
+    top: 38.5vw;
     left: 1.5vw;
     z-index: 1;
   }
@@ -146,13 +146,13 @@
     font-family: 'Rubik Mono One', sans-serif;
     color: #b9311c;
     font-weight: 700;
-    font-size: 1.8vw;
+    font-size: 3.07vw;
     padding-right: 2vw;
     margin: 0 3.5vw 0 0;
     text-align: center;
     position: absolute;
-    top: 33vw;
-    left: 4.5vw;
+    top: 45.5vw;
+    left: 2vw;
     z-index: 1;
   }
 

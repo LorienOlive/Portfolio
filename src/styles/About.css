@@ -91,7 +91,7 @@
 }
 
 
-@media (min-width:1280px) {
+@media (min-width:1024px) {
 
   .about-container {
     background-color: #fe472b;
@@ -118,21 +118,22 @@
     font-family: 'Rubik Mono One', sans-serif;
     color: #fe472b;
     font-weight: 700;
-    font-size: 4vw;
+    font-size: 5.5vw;
     margin: 0;
     position: absolute;
     top: 5vw;
-    left: 12vw;
+    left: 9vw;
     z-index: 0;
   }
 
   .about-paragraph {
     font-family: 'Raleway', sans-serif;
     color: #b9311c;
-    font-size: 1.35vw;
-    line-height: 2vw;
+    font-size: 1.75vw;
+    line-height: 2.25vw;
     position: absolute;
-    top: 10.5vw;
-    left: 10.5vw;
+    top: 11.5vw;
+    left: 9vw;
+    right: 9vw;
   }
 }

@@ -43,14 +43,24 @@
   display: inline;
 }
 
-.contact-links {
+.contact-links:link {
   display: block;
   text-decoration: none;
   color: #b9311c;
   padding: 3vw 0 3vw 0;
 }
 
+.contact-links:visited {
+  color: #b9311c;
+  text-decoration: none;
+}
+
 .contact-links:hover {
+  color: #fe472b;
+  text-decoration: none;
+}
+
+.contact-links:active {
   color: #fe472b;
   text-decoration: none;
 }
@@ -95,6 +105,7 @@
 
   .contact-links {
     padding: 1vw 0 1vw 0;
+    text-decoration: none;
   }
 
   .contact-list-item .fa {
@@ -106,7 +117,7 @@
   }
 }
 
-@media (min-width:1280px) {
+@media (min-width:1024px) {
 
   .contact-container {
     background-color: rgba(248, 247, 196, 1);
@@ -117,9 +128,9 @@
   .contact-header {
     font-family: 'Rubik Mono One', sans-serif;
     color: #fe472b;
-    font-size: 5vw;
+    font-size: 6vw;
     margin: 0;
-    padding: 9vw 0 0 0;
+    padding: 14vw 0 0 0;
     text-align: center;
   }
 
@@ -128,7 +139,7 @@
     display: flex;
     flex-flow: column nowrap;
     width: 20vw;
-    margin: 2vw 40vw 0 31vw;
+    margin: 2vw 40vw 0 27vw;
   }
 
   .contact-list-item {
@@ -142,6 +153,7 @@
 
   .contact-links {
     padding: 1vw 0 1vw 0;
+    text-decoration: none;
   }
 
   .contact-list-item .fa {

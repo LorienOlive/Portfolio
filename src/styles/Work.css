@@ -584,7 +584,7 @@
   }
 }
 
-@media (min-width:1280px) {
+@media (min-width:1024px) {
 
   .work-container {
     background-color: #FFFFFF;
@@ -595,7 +595,7 @@
   .work-dev-header {
     font-family: "Rubik Mono One", sans-serif;
     color: #fe472b;
-    font-size: 5vw;
+    font-size: 6vw;
     margin: 0 0 5vw 0;
     padding: 8vw 0 0 0;
     text-align: center;
@@ -781,7 +781,7 @@
     background: url("./images/snippets.png") no-repeat;
     background-size: cover;
     width: 30vw;
-    height: 147vh
+    height: 100vh
   }
 
   #musicbox {
@@ -896,7 +896,7 @@
     height: 35vw;
     padding: .5vw;
     position: relative;
-    left: 5.5vw;
+    left: 4.5vw;
     z-index: 0;
   }
 
@@ -907,7 +907,7 @@
     height: 35vw;
     padding: .5vw;
     position: relative;
-    left: 5.5vw;
+    left: 4.5vw;
     z-index: 0;
   }
 
@@ -918,7 +918,7 @@
     height: 35vw;
     padding: .5vw;
     position: relative;
-    left: 5.5vw;
+    left: 4.5vw;
     z-index: 0;
   }
 
@@ -934,7 +934,7 @@
 
   .glyphicon-chevron-left {
     padding-top: 6vw;
-    margin-left: -7.5vw!important;
+    margin-left: -8.25vw!important;
   }
 
   .glyphicon-chevron-left:before {
@@ -944,7 +944,7 @@
 
   .glyphicon-chevron-right {
     padding-top: 6vw;
-    margin-right: -6vw!important;
+    margin-right: -4.5vw!important;
   }
 
   .glyphicon-chevron-right:before {
