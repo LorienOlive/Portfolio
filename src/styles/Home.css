@@ -22,11 +22,11 @@
     font-family: 'Rubik Mono One', sans-serif;
     color: #fe472b;
     font-weight: 700;
-    font-size: 9vw;
+    font-size: 8.75vw;
     text-align: center;
     position: absolute;
-    top: 80vw;
-    left: 3vw;
+    top: 81vw;
+    left: 4.75vw;
     z-index: 1;
   }
 
@@ -34,16 +34,80 @@
     font-family: 'Rubik Mono One', sans-serif;
     color: #b9311c;
     font-weight: 700;
-    font-size: 4.65vw;
+    font-size: 4.5vw;
     text-align: center;
     position: absolute;
-    top: 90vw;
-    left: 3.5vw;
+    top: 92.5vw;
+    left: 5.5vw;
     z-index: 1;
   }
 
+@media (min-width:600px) {
+
+  .home-image {
+    width: 110vw;
+    height: 79vh;
+    margin: 0 20vw 0 -3vw;
+  }
+
+  .home-header {
+    position: absolute;
+    top: 76vw;
+    left: 4.75vw;
+    z-index: 1;
+  }
+
+  .home-subheader {
+    position: absolute;
+    top: 86vw;
+    left: 5.5vw;
+    z-index: 1;
+  }
+
+}
 
 @media (min-width:768px) {
+
+    .home-image {
+      background: url('./images/webpage-home2.png') no-repeat;
+      background-size: contain;
+      width: 100vw;
+      height: 120vw;
+      position: absolute;
+      top: 7vw;
+      left: 5vw;
+    }
+
+    .home-header {
+      font-family: 'Rubik Mono One', sans-serif;
+      color: #fe472b;
+      font-weight: 700;
+      font-size: 8.5vw;
+      padding: 0vw 2vw 0 0;
+      margin: 0 4vw 0 0;
+      text-align: center;
+      position: absolute;
+      top: 55vw;
+      left: 4.5vw;
+      z-index: 1;
+    }
+
+    .home-subheader {
+      font-family: 'Rubik Mono One', sans-serif;
+      color: #b9311c;
+      font-weight: 700;
+      font-size: 4.35vw;
+      padding-right: 2vw;
+      margin: 0 3.5vw 0 0;
+      text-align: center;
+      position: absolute;
+      top: 65vw;
+      left: 5vw;
+      z-index: 1;
+    }
+}
+
+@media (min-width:1280px) {
 
   .home-container {
     background-color: #f4d0cd;
@@ -61,7 +125,7 @@
     height: 60vw;
     position: absolute;
     top: 0vw;
-    left: 36.3vw;
+    left: 31vw;
   }
 
   .home-header {

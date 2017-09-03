@@ -55,6 +55,54 @@
   }
 
   .about-frame {
+    background: url('./images/frame-shape-vert.png') no-repeat;
+    background-size: contain;
+    width: 90vw;
+    height: 80vh;
+    padding-bottom: 20vw;
+    position: relative;
+    top: 15vw;
+    left: 9vw;
+  }
+
+
+  .about-header {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #fe472b;
+    font-weight: 700;
+    font-size: 8.5vw;
+    margin: 0;
+    position: absolute;
+    top: 14vw;
+    left: 12vw;
+    z-index: 0;
+  }
+
+  .about-paragraph {
+    font-family: 'Raleway', sans-serif;
+    color: #b9311c;
+    font-size: 3.3vw;
+    line-height: 5.5vw;
+    position: absolute;
+    top: 26vw;
+    left: 11.5vw;
+    right: 20vw;
+  }
+}
+
+
+@media (min-width:1280px) {
+
+  .about-container {
+    background-color: #fe472b;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+
+  .about-frame {
     background: url('./images/frame-shape.png') no-repeat;
     background-size: contain;
     width: 55vw;

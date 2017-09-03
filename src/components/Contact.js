@@ -26,7 +26,7 @@ class Contact extends Component {
               <p className="contact-info">@LorienOlive</p></a>
             </li>
             <li className="contact-list-item">
-              <a className="contact-links" href={process.env.PUBLIC_URL + "/lorien_olive_resume.pdf"} target="_blank"><i className="fa fa-file-pdf-o" aria-hidden="true" />
+              <a className="contact-links" href={process.env.PUBLIC_URL + "/lorien_olive_resume.pdf"} target="_blank"><i className="fa fa-file-pdf-o" aria-hidden="true"></i>
               <p className="contact-info">Resume</p></a>
             </li>
           </ul>

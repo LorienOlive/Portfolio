@@ -10,7 +10,7 @@
   color: #fe472b;
   font-size: 9.5vw;
   margin: 0;
-  padding: 45vw 0 0 0;
+  padding: 38vw 0 0 0;
   text-align: center;
 }
 
@@ -60,6 +60,53 @@
 }
 
 @media (min-width:768px) {
+
+  .contact-container {
+    background-color: rgba(248, 247, 196, 1);
+    height: 100vh;
+    margin: 0;
+  }
+
+  .contact-header {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #fe472b;
+    font-size: 8vw;
+    margin: 0;
+    padding: 18vw 0 0 0;
+    text-align: center;
+  }
+
+  .contact-list {
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 20vw;
+    margin: 2vw 40vw 0 20vw;
+  }
+
+  .contact-list-item {
+    font: 'Raleway', sans-serif;
+    font-size: 3.5vw;
+    color: #b9311c;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 40vw;
+  }
+
+  .contact-links {
+    padding: 1vw 0 1vw 0;
+  }
+
+  .contact-list-item .fa {
+    padding: 1vw 1vw 0 2vw;
+  }
+
+  .contact-info {
+    padding: .75vw 0 0 2vw;
+  }
+}
+
+@media (min-width:1280px) {
 
   .contact-container {
     background-color: rgba(248, 247, 196, 1);
