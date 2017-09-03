@@ -595,7 +595,7 @@
   .work-dev-header {
     font-family: "Rubik Mono One", sans-serif;
     color: #fe472b;
-    font-size: 6vw;
+    font-size: 5.5vw;
     margin: 0 0 5vw 0;
     padding: 8vw 0 0 0;
     text-align: center;
@@ -896,7 +896,7 @@
     height: 35vw;
     padding: .5vw;
     position: relative;
-    left: 4.5vw;
+    left: 5vw;
     z-index: 0;
   }
 
@@ -907,7 +907,7 @@
     height: 35vw;
     padding: .5vw;
     position: relative;
-    left: 4.5vw;
+    left: 5vw;
     z-index: 0;
   }
 
@@ -918,7 +918,7 @@
     height: 35vw;
     padding: .5vw;
     position: relative;
-    left: 4.5vw;
+    left: 5vw;
     z-index: 0;
   }
 

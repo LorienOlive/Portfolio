@@ -15,18 +15,18 @@
     background-size: cover;
     width: 110vw;
     height: 79vh;
-    margin: 0 20vw 0 -8vw;
+    margin: 0 20vw 0 -6vw;
   }
 
   .home-header {
     font-family: 'Rubik Mono One', sans-serif;
     color: #fe472b;
     font-weight: 700;
-    font-size: 8.75vw;
+    font-size: 8.25vw;
     text-align: center;
     position: absolute;
     top: 81vw;
-    left: 4.75vw;
+    left: 7vw;
     z-index: 1;
   }
 
@@ -34,11 +34,11 @@
     font-family: 'Rubik Mono One', sans-serif;
     color: #b9311c;
     font-weight: 700;
-    font-size: 4.5vw;
+    font-size: 4.25vw;
     text-align: center;
     position: absolute;
     top: 92.5vw;
-    left: 5.5vw;
+    left: 7.5vw;
     z-index: 1;
   }
 
@@ -122,23 +122,23 @@
     background: url('./images/webpage-home2.png') no-repeat;
     background-size: contain;
     width: 70vw;
-    height: 90vw;
+    height: 55vw;
     position: absolute;
-    top: 0vw;
-    left: 22vw;
+    top: 1vw;
+    left: 30vw;
   }
 
   .home-header {
     font-family: 'Rubik Mono One', sans-serif;
     color: #fe472b;
     font-weight: 700;
-    font-size: 6vw;
-    padding: 0vw 2vw 0 0;
-    margin: 0 4vw 0 0;
+    font-size: 5vw;
+    padding: 0;
+    margin: 0;
     text-align: center;
     position: absolute;
-    top: 38.5vw;
-    left: 1.5vw;
+    top: 27vw;
+    left: -2.5vw;
     z-index: 1;
   }
 
@@ -146,13 +146,13 @@
     font-family: 'Rubik Mono One', sans-serif;
     color: #b9311c;
     font-weight: 700;
-    font-size: 3.07vw;
-    padding-right: 2vw;
-    margin: 0 3.5vw 0 0;
+    font-size: 2.57vw;
+    padding-right: 0;
+    margin: 0;
     text-align: center;
     position: absolute;
-    top: 45.5vw;
-    left: 2vw;
+    top: 32.5vw;
+    left: -2vw;
     z-index: 1;
   }
 

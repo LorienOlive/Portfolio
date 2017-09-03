@@ -14,7 +14,7 @@
   padding-bottom: 20vw;
   position: relative;
   top: 7vw;
-  left: 2.5vw;
+  left: 3vw;
 }
 
 
@@ -22,7 +22,7 @@
   font-family: 'Rubik Mono One', sans-serif;
   color: #fe472b;
   font-weight: 700;
-  font-size: 9.5vw;
+  font-size: 8.5vw;
   position: absolute;
   top: 14vw;
   left: 15vw;
@@ -118,22 +118,22 @@
     font-family: 'Rubik Mono One', sans-serif;
     color: #fe472b;
     font-weight: 700;
-    font-size: 5.5vw;
+    font-size: 5vw;
     margin: 0;
     position: absolute;
     top: 5vw;
-    left: 9vw;
+    left: 8.5vw;
     z-index: 0;
   }
 
   .about-paragraph {
     font-family: 'Raleway', sans-serif;
     color: #b9311c;
-    font-size: 1.75vw;
-    line-height: 2.25vw;
+    font-size: 1.6vw;
+    line-height: 2.1vw;
     position: absolute;
-    top: 11.5vw;
-    left: 9vw;
-    right: 9vw;
+    top: 10.5vw;
+    left: 8.5vw;
+    right: 12.5vw;
   }
 }

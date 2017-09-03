@@ -128,9 +128,9 @@
   .contact-header {
     font-family: 'Rubik Mono One', sans-serif;
     color: #fe472b;
-    font-size: 6vw;
+    font-size: 5.5vw;
     margin: 0;
-    padding: 14vw 0 0 0;
+    padding: 9vw 0 0 0;
     text-align: center;
   }
 
@@ -139,12 +139,13 @@
     display: flex;
     flex-flow: column nowrap;
     width: 20vw;
-    margin: 2vw 40vw 0 27vw;
+    margin: 0vw 40vw 0 29.4vw;
   }
 
   .contact-list-item {
     font: 'Raleway', sans-serif;
     font-size: 2.5vw;
+    height: 5vw;
     color: #b9311c;
     display: flex;
     flex-flow: row nowrap;

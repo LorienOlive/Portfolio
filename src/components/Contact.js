@@ -10,8 +10,8 @@ class Contact extends Component {
         <div className='contact-wrapper'>
           <ul className="contact-list">
             <li className="contact-list-item">
-              <i className="fa fa-envelope" aria-hidden="true" />
-              <p className="contact-info">lorien.olive@gmail.com</p>
+              <a className="contact-links" href="lorien.olive@gmail.com"><i className="fa fa-envelope" aria-hidden="true" />
+              <p className="contact-info">lorien.olive@gmail.com</p></a>
             </li>
             <li className="contact-list-item">
               <a className="contact-links" href="https://github.com/LorienOlive"><i className="fa fa-github" aria-hidden="true" />
