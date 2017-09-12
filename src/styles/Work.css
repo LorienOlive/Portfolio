@@ -759,12 +759,12 @@
   }
 
   .screen-container {
-    height: 19.55vw;
+    height: 19.7vw;
     width: 30vw;
     border-radius: 8px;
     position: relative;
     z-index: -1;
-    top: 1.26vw;
+    top: 1.2vw;
     left: 4.8vw;
     overflow-y: scroll;
   }
@@ -775,6 +775,13 @@
     height: 19.5vw;
     width: 30vw;
     margin: none;
+  }
+
+  #mock-etsy {
+    background: url("./images/mock_etsy.png") no-repeat;
+    background-size: cover;
+    width: 30vw;
+    height: 100vh
   }
 
   #snippets {

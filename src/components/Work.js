@@ -21,21 +21,23 @@ class Work extends Component {
               <a className="work-code-link" src="#">Code</a>
               <a className="work-demo-link" src="#">Live</a>
             </div>
-          </div>
+          </div> */}
 
         <div className="work-project-wrapper" id="two"></div>
           <div className="work-flex-container" id="two-flex">
             <div className="work-window" id="two-window">
-              <div className="work-screen"></div>
+              <div className="screen-container">
+                <div className="work-screen" id="mock-etsy"></div>
+              </div>
             </div>
             <div className="work-text-card" id="two-text">
               <h3 className="work-project-header">Mock Etsy</h3>
               <p className="work-project-description"> Working collaboratively, I helped re-build the main category page of the Etsy site, using their API. When individual groups finished, all of the pages were merged on GitHub to create a fully functioning site. </p>
               <p className="work-project-tools">Tools: React, Bootstrap, GitHub</p>
-              <a className="work-code-link" src="#">Code</a>
-              <a className="work-demo-link" src="#">Live</a>
+              <a className="work-code-link" href="https://github.com/swallsy/TIY-Etsy-Final/blob/Home/src/HomePage/components/Home/ShopCards/Cards.js">Code</a>
+              <a className="work-demo-link" href="https://etsyclassproject.surge.sh/category">Live</a>
             </div>
-          </div> */}
+          </div>
 
         <div className="work-project-wrapper" id="one"></div>
           <div className="work-flex-container" id="one-flex">
