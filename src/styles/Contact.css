@@ -69,12 +69,14 @@
   padding: .75vw 0 0 2vw;
 }
 
-@media (min-width:768px) {
+@media (min-width:600px) {
 
   .contact-container {
     background-color: rgba(248, 247, 196, 1);
     height: 100vh;
     margin: 0;
+    text-align: center;
+    position: relative;
   }
 
   .contact-header {
@@ -82,16 +84,98 @@
     color: #fe472b;
     font-size: 8vw;
     margin: 0;
-    padding: 18vw 0 0 0;
-    text-align: center;
+    padding-top: 18%;
+  }
+
+  .contact-wrapper {
+    width: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 
   .contact-list {
     list-style: none;
     display: flex;
     flex-flow: column nowrap;
-    width: 20vw;
-    margin: 2vw 40vw 0 20vw;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    margin: auto;
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .contact-list-item {
+    font: 'Raleway', sans-serif;
+    font-size: 3.5vw;
+    color: #b9311c;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 40vw;
+  }
+
+  .contact-links {
+    padding: 1vw 0 1vw 0;
+    text-decoration: none;
+  }
+
+  .contact-list-item .fa {
+    padding: 1vw 1vw 0 2vw;
+  }
+
+  .contact-info {
+    padding: .75vw 0 0 2vw;
+  }
+}
+
+@media (min-width:768px) {
+
+  .contact-container {
+    background-color: rgba(248, 247, 196, 1);
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    position: relative;
+  }
+
+  .contact-header {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #fe472b;
+    font-size: 8vw;
+    margin: 0;
+    padding-top: 18%;
+  }
+
+  .contact-wrapper {
+    width: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .contact-list {
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    margin: auto;
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 
   .contact-list-item {
@@ -123,23 +207,41 @@
     background-color: rgba(248, 247, 196, 1);
     height: 100vh;
     margin: 0;
+    text-align: center;
+    position: relative;
   }
 
   .contact-header {
     font-family: 'Rubik Mono One', sans-serif;
     color: #fe472b;
-    font-size: 5.5vw;
+    font-size: 8vw;
     margin: 0;
-    padding: 9vw 0 0 0;
-    text-align: center;
+    padding-top: 18%;
+  }
+
+  .contact-wrapper {
+    width: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 
   .contact-list {
     list-style: none;
     display: flex;
     flex-flow: column nowrap;
-    width: 20vw;
-    margin: 0vw 40vw 0 29.4vw;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    margin: auto;
+    top: 32%;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 
   .contact-list-item {

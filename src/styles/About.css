@@ -2,8 +2,7 @@
   background-color: #fe472b;
   width: 100vw;
   height: 100vh;
-  margin: 0;
-  padding-top: 20vw;
+  padding: 0;
 }
 
 .about-frame {
@@ -13,8 +12,8 @@
   height: 85vh;
   padding-bottom: 20vw;
   position: relative;
-  top: 7vw;
-  left: 3vw;
+  top: 9%;
+  left: 5%;
 }
 
 
@@ -42,40 +41,49 @@
   right: 15vw;
 }
 
-
-@media (min-width:768px) {
+@media (min-width:600px) {
 
   .about-container {
     background-color: #fe472b;
     width: 100vw;
     height: 100vh;
-    position: relative;
-    margin: 0;
     padding: 0;
   }
 
   .about-frame {
     background: url('./images/frame-shape-vert.png') no-repeat;
     background-size: contain;
-    width: 90vw;
-    height: 80vh;
-    padding-bottom: 20vw;
+    width: 85%;
+    height: 85%;
+    padding: 0px;
+    margin: 0px;
     position: relative;
-    top: 15vw;
-    left: 9vw;
+    top: 10%;
+    left: 8%;
   }
 
+  .about-text-row {
+    width: 62%;
+    height: 70%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 4%;
+    left: 0;
+    right: 0;
+  }
 
   .about-header {
     font-family: 'Rubik Mono One', sans-serif;
     color: #fe472b;
     font-weight: 700;
-    font-size: 8.5vw;
-    margin: 0;
+    font-size: 7.6vw;
     position: absolute;
-    top: 14vw;
-    left: 12vw;
-    z-index: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 
   .about-paragraph {
@@ -83,19 +91,77 @@
     color: #b9311c;
     font-size: 3.3vw;
     line-height: 5.5vw;
-    position: absolute;
-    top: 26vw;
-    left: 11.5vw;
-    right: 20vw;
+    margin: auto;
+    top: 11%;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 }
 
+@media (min-width:768px) {
+
+  .about-container {
+    background-color: #fe472b;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+  }
+
+  .about-frame {
+    background: url('./images/frame-shape-vert.png') no-repeat;
+    background-size: contain;
+    width: 85%;
+    height: 85%;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: 10%;
+    left: 8%;
+  }
+
+  .about-text-row {
+    width: 62%;
+    height: 70%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 4%;
+    left: 0;
+    right: 0;
+  }
+
+  .about-header {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #fe472b;
+    font-weight: 700;
+    font-size: 7.6vw;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .about-paragraph {
+    font-family: 'Raleway', sans-serif;
+    color: #b9311c;
+    font-size: 3.3vw;
+    line-height: 5.5vw;
+    margin: auto;
+    top: 11%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
 
 @media (min-width:1024px) {
 
   .about-container {
     background-color: #fe472b;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     position: relative;
     margin: 0;
@@ -105,35 +171,44 @@
   .about-frame {
     background: url('./images/frame-shape.png') no-repeat;
     background-size: contain;
-    width: 55vw;
-    height: 65vh;
-    padding-bottom: 20vw;
-    position: relative;
-    top: 10vw;
-    left: 24vw;
+    width: 82%;
+    height: 75%;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 
+  .about-text-row {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
 
   .about-header {
-    font-family: 'Rubik Mono One', sans-serif;
-    color: #fe472b;
-    font-weight: 700;
-    font-size: 5vw;
+    font-size: 8.4vw;
     margin: 0;
     position: absolute;
-    top: 5vw;
-    left: 8.5vw;
+    top: 0;
+    left: 0;
     z-index: 0;
   }
 
   .about-paragraph {
-    font-family: 'Raleway', sans-serif;
-    color: #b9311c;
-    font-size: 1.6vw;
-    line-height: 2.1vw;
+    font-size: 25px;
+    line-height: 37px;
+    width: 100%;
     position: absolute;
-    top: 10.5vw;
-    left: 8.5vw;
-    right: 12.5vw;
+    top: 23%;
+    left: 0;
   }
 }

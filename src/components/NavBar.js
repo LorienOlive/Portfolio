@@ -82,7 +82,7 @@ const navCollapseStyle = {
 
 const navToggleStyle = {
   position: 'absolute',
-  left: '85vw',
+  left: '87.5vw',
   top: '0vw',
   zIndex: '1003'
 }
