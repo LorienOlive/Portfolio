@@ -9,19 +9,21 @@ class Work extends Component {
     return(
       <div className="work-container" id="workPage">
         <h1 className="work-dev-header">Work</h1>
-        {/* <div className="work-project-wrapper" id="one"></div>
+        <div className="work-project-wrapper" id="one"></div>
           <div className="work-flex-container" id="one-flex">
             <div className="work-window" id="one-window">
-              <div className="work-screen"></div>
+              <div className="screen-container">
+                <div className="work-screen" id="ecommerce"></div>
+              </div>
             </div>
             <div className="work-text-card" id="one-text">
               <h3 className="work-project-header">eCommerce Site</h3>
               <p className="work-project-description">Working with a team, I helped create a mock eCommerce site. We chose to create an agency where you can hire super-heroes (and villains) for everyday tasks. I focused on file architecture, and setting up Redux, as well as creating the functionality and design for the product details page.</p>
               <p className="work-project-tools">Tools: React, Redux, Sass, Node, and Postgres</p>
-              <a className="work-code-link" src="#">Code</a>
-              <a className="work-demo-link" src="#">Live</a>
+              <a className="work-code-link" href="https://github.com/Team-Blamm">Code</a>
+              <a className="work-demo-link" href="http://blammstore.surge.sh/">Live</a>
             </div>
-          </div> */}
+          </div>
 
         <div className="work-project-wrapper" id="two"></div>
           <div className="work-flex-container" id="two-flex">

@@ -152,6 +152,12 @@
   margin: none;
 }
 
+#ecommerce {
+  background: url("./images/eCommerce.png") no-repeat;
+  background-size: cover;
+  height: 41.5vh
+}
+
 #snippets {
   background: url("./images/snippets.png") no-repeat;
   background-size: cover;
