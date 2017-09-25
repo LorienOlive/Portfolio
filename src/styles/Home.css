@@ -2,7 +2,7 @@
   background-color: #f4d0cd;
   width: 100%;
   height: 100vh;
-  padding: 35% 0% 15% 2%;
+  padding: 15% 0% 15% 2%;
   box-sizing: border-box;
   position: relative;
   top: 0;
@@ -23,7 +23,7 @@
   margin: auto;
   box-sizing: border-box;
   position: absolute;
-  top: 11%;
+  top: 13%;
   bottom: 0;
   left: 0;
   right: 0;
@@ -34,7 +34,7 @@
   font-family: 'Rubik Mono One', sans-serif;
   color: #fe472b;
   font-weight: 700;
-  font-size: 8.8vw;
+  font-size: 8.3vw;
   padding: 0;
   margin: 0;
   text-align: center;
