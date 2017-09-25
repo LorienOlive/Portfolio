@@ -155,7 +155,6 @@
 #ecommerce {
   background: url("./images/eCommerce.png") no-repeat;
   background-size: cover;
-  height: 41.5vh
 }
 
 #snippets {
@@ -455,6 +454,10 @@
     height: 41.5vw;
     width: 64.5vw;
     margin: none;
+  }
+
+  #ecommerce {
+    height: 41.5vh
   }
 
   #snippets {
@@ -795,16 +798,17 @@
     margin: none;
   }
 
+  #ecommerce {
+    width: 30vw;
+    height: 41.5vh
+  }
+
   #mock-etsy {
-    background: url("./images/mock_etsy.png") no-repeat;
-    background-size: cover;
     width: 30vw;
     height: 100vh
   }
 
   #snippets {
-    background: url("./images/snippets.png") no-repeat;
-    background-size: cover;
     width: 30vw;
     height: 100vh
   }
