@@ -268,3 +268,16 @@
   }
 
 }
+
+@media (min-width: 1900px) {
+  div.navbar-collapse.collapse {
+    padding-left: 3vw!important;
+  }
+  .navbar-left li a {
+    margin-left: 4vw;
+    font-size: 1.25vw;
+  }
+  .navbar-right li a i {
+    font-size: 2vw;
+  }
+}

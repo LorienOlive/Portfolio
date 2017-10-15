@@ -165,3 +165,9 @@
     padding: .75vw 0 0 2vw;
   }
 }
+
+@media (min-width: 1900px) {
+  .contact-list {
+    margin: 0vw 40vw 0 31vw;
+  }
+}

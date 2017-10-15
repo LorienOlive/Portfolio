@@ -205,3 +205,18 @@
     top: 6.5vw;
   }
 }
+
+@media (min-width:1900px) {
+  .about-text-row {
+    width: 90%;
+  }
+
+  .about-header {
+    font-size: 5.65vw;
+  }
+
+  .about-paragraph {
+    font-size: 1.4vw;
+    line-height: 2.4vw;
+  }
+}
